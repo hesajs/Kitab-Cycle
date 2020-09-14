@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A02E9A16250F703E002F41FC /* CheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02E9A15250F703E002F41FC /* CheckVC.swift */; };
+		A03E27D6250E4F9900A6CF16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E27D5250E4F9900A6CF16 /* AppDelegate.swift */; };
+		A03E27D8250E4F9900A6CF16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E27D7250E4F9900A6CF16 /* SceneDelegate.swift */; };
+		A03E27DA250E4F9900A6CF16 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E27D9250E4F9900A6CF16 /* LoginVC.swift */; };
+		A03E27DF250E4F9C00A6CF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03E27DE250E4F9C00A6CF16 /* Assets.xcassets */; };
+		A03E27E2250E4F9C00A6CF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03E27E0250E4F9C00A6CF16 /* LaunchScreen.storyboard */; };
+		A03E27EA250E735D00A6CF16 /* KCEmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E27E9250E735D00A6CF16 /* KCEmailTextField.swift */; };
+		A03E27EC250E76AE00A6CF16 /* KCPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E27EB250E76AE00A6CF16 /* KCPasswordTextField.swift */; };
+		A03E27EE250E802600A6CF16 /* KCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E27ED250E802600A6CF16 /* KCButton.swift */; };
+		A0C4526F250F101400B2067B /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C4526E250F101400B2067B /* SignupVC.swift */; };
+		A0C45272250F122300B2067B /* KCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C45271250F122300B2067B /* KCTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A02E9A15250F703E002F41FC /* CheckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckVC.swift; sourceTree = "<group>"; };
+		A03E27D2250E4F9900A6CF16 /* Kitab Cycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitab Cycle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03E27D5250E4F9900A6CF16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A03E27D7250E4F9900A6CF16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A03E27D9250E4F9900A6CF16 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A03E27DE250E4F9C00A6CF16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A03E27E1250E4F9C00A6CF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A03E27E3250E4F9C00A6CF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03E27E9250E735D00A6CF16 /* KCEmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCEmailTextField.swift; sourceTree = "<group>"; };
+		A03E27EB250E76AE00A6CF16 /* KCPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPasswordTextField.swift; sourceTree = "<group>"; };
+		A03E27ED250E802600A6CF16 /* KCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCButton.swift; sourceTree = "<group>"; };
+		A0C4526E250F101400B2067B /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		A0C45271250F122300B2067B /* KCTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A03E27CF250E4F9900A6CF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A03E27C9250E4F9900A6CF16 = {
+			isa = PBXGroup;
+			children = (
+				A03E27D4250E4F9900A6CF16 /* Kitab Cycle */,
+				A03E27D3250E4F9900A6CF16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A03E27D3250E4F9900A6CF16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A03E27D2250E4F9900A6CF16 /* Kitab Cycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A03E27D4250E4F9900A6CF16 /* Kitab Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				A0C4526B250F0F8E00B2067B /* ViewController */,
+				A0C4526C250F0FB000B2067B /* Custom View */,
+				A0C4526D250F0FD100B2067B /* Support */,
+				A03E27E3250E4F9C00A6CF16 /* Info.plist */,
+			);
+			path = "Kitab Cycle";
+			sourceTree = "<group>";
+		};
+		A0C4526B250F0F8E00B2067B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A03E27D9250E4F9900A6CF16 /* LoginVC.swift */,
+				A0C4526E250F101400B2067B /* SignupVC.swift */,
+				A02E9A15250F703E002F41FC /* CheckVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A0C4526C250F0FB000B2067B /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				A0C45271250F122300B2067B /* KCTextField.swift */,
+				A03E27EB250E76AE00A6CF16 /* KCPasswordTextField.swift */,
+				A03E27E9250E735D00A6CF16 /* KCEmailTextField.swift */,
+				A03E27ED250E802600A6CF16 /* KCButton.swift */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		A0C4526D250F0FD100B2067B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A03E27D5250E4F9900A6CF16 /* AppDelegate.swift */,
+				A03E27D7250E4F9900A6CF16 /* SceneDelegate.swift */,
+				A03E27DE250E4F9C00A6CF16 /* Assets.xcassets */,
+				A03E27E0250E4F9C00A6CF16 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A03E27D1250E4F9900A6CF16 /* Kitab Cycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03E27E6250E4F9C00A6CF16 /* Build configuration list for PBXNativeTarget "Kitab Cycle" */;
+			buildPhases = (
+				A03E27CE250E4F9900A6CF16 /* Sources */,
+				A03E27CF250E4F9900A6CF16 /* Frameworks */,
+				A03E27D0250E4F9900A6CF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kitab Cycle";
+			productName = "Kitab Cycle";
+			productReference = A03E27D2250E4F9900A6CF16 /* Kitab Cycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A03E27CA250E4F9900A6CF16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "SaJesh Shrestha";
+				TargetAttributes = {
+					A03E27D1250E4F9900A6CF16 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = A03E27CD250E4F9900A6CF16 /* Build configuration list for PBXProject "Kitab Cycle" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A03E27C9250E4F9900A6CF16;
+			productRefGroup = A03E27D3250E4F9900A6CF16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A03E27D1250E4F9900A6CF16 /* Kitab Cycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A03E27D0250E4F9900A6CF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03E27E2250E4F9C00A6CF16 /* LaunchScreen.storyboard in Resources */,
+				A03E27DF250E4F9C00A6CF16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A03E27CE250E4F9900A6CF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02E9A16250F703E002F41FC /* CheckVC.swift in Sources */,
+				A03E27EA250E735D00A6CF16 /* KCEmailTextField.swift in Sources */,
+				A0C4526F250F101400B2067B /* SignupVC.swift in Sources */,
+				A03E27EC250E76AE00A6CF16 /* KCPasswordTextField.swift in Sources */,
+				A0C45272250F122300B2067B /* KCTextField.swift in Sources */,
+				A03E27DA250E4F9900A6CF16 /* LoginVC.swift in Sources */,
+				A03E27D6250E4F9900A6CF16 /* AppDelegate.swift in Sources */,
+				A03E27D8250E4F9900A6CF16 /* SceneDelegate.swift in Sources */,
+				A03E27EE250E802600A6CF16 /* KCButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A03E27E0250E4F9C00A6CF16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A03E27E1250E4F9C00A6CF16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A03E27E4250E4F9C00A6CF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A03E27E5250E4F9C00A6CF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A03E27E7250E4F9C00A6CF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7DKABEXPR;
+				INFOPLIST_FILE = "Kitab Cycle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Kitab-Cycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A03E27E8250E4F9C00A6CF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7DKABEXPR;
+				INFOPLIST_FILE = "Kitab Cycle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Kitab-Cycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A03E27CD250E4F9900A6CF16 /* Build configuration list for PBXProject "Kitab Cycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03E27E4250E4F9C00A6CF16 /* Debug */,
+				A03E27E5250E4F9C00A6CF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03E27E6250E4F9C00A6CF16 /* Build configuration list for PBXNativeTarget "Kitab Cycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03E27E7250E4F9C00A6CF16 /* Debug */,
+				A03E27E8250E4F9C00A6CF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A03E27CA250E4F9900A6CF16 /* Project object */;
+}

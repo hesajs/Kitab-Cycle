@@ -10,7 +10,7 @@ import UIKit
 
 class LoginVC: UIViewController {
     
-    let logoImageView = UIImageView()
+    let loginImageView = KCLogoImageView(frame: .zero)
     let emailTextField = KCEmailTextField()
     let passwordTextField = KCPasswordTextField()
     let loginButton = KCButton(backgroundColor: .systemOrange, title: "Login")
@@ -21,10 +21,9 @@ class LoginVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         view.backgroundColor = .systemBackground
         
-        configureLogo()
+        configureLoginLogo()
         configureEmailTextField()
         configurePasswordTextField()
         createDismissKeyboardTapGesture()
@@ -34,7 +33,6 @@ class LoginVC: UIViewController {
    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        //        navigationController?.isNavigationBarHidden = true
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
@@ -43,22 +41,13 @@ class LoginVC: UIViewController {
         view.addGestureRecognizer(tap)
     }
     
-    func configureLogo() {
-        let imageIcon = UIImage(systemName: "book.circle.fill")?.withTintColor(.systemOrange, renderingMode: .alwaysOriginal)
-        logoImageView.image = imageIcon
-        logoImageView.contentMode = .scaleAspectFit
-        logoImageView.translatesAutoresizingMaskIntoConstraints = false
-        
-        
-        view.addSubview(logoImageView)
-        
-        
+    func configureLoginLogo() {
+        view.addSubview(loginImageView)
+                  
         NSLayoutConstraint.activate([
-            logoImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            //            logoImageView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            logoImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 200),
-            logoImageView.heightAnchor.constraint(equalToConstant: 200),
-            logoImageView.widthAnchor.constraint(equalToConstant: 200),
+            loginImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            loginImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 200),
+            loginImageView.heightAnchor.constraint(equalToConstant: 175),
         ])
     }
     
@@ -67,7 +56,7 @@ class LoginVC: UIViewController {
         
         NSLayoutConstraint.activate([
             emailTextField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            emailTextField.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: padding),
+            emailTextField.topAnchor.constraint(equalTo: loginImageView.bottomAnchor, constant: padding),
             emailTextField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
             emailTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
             emailTextField.heightAnchor.constraint(equalToConstant: heightOfTextField),
@@ -117,7 +106,7 @@ class LoginVC: UIViewController {
     }
     
     @objc func pushHomeVC() {
-        navigationController?.pushViewController(CheckVC(), animated: true)
+        navigationController?.pushViewController(HomeVC(), animated: true)
     }
     
 }

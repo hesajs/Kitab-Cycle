@@ -1,5 +1,5 @@
 //
-//  CheckVC.swift
+//  HomeVC.swift
 //  Kitab Cycle
 //
 //  Created by SaJesh Shrestha on 9/14/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CheckVC: UIViewController {
+class HomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

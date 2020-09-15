@@ -103,7 +103,7 @@ class SignupVC: UIViewController {
     }
     
     @objc func pushHomeVC() {
-        navigationController?.pushViewController(CheckVC(), animated: true)
+        navigationController?.pushViewController(HomeVC(), animated: true)
     }
     
 }

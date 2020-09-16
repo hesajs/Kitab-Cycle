@@ -13,7 +13,7 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .green
-        title = "Home"
+        navigationItem.title = "Home"
         navigationController?.navigationBar.prefersLargeTitles = true
     }
     

@@ -14,5 +14,7 @@ class AddProductVC: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .systemBlue
+        navigationItem.title = "Add Your Product"
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
 }

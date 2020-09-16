@@ -41,6 +41,17 @@ class LoginVC: UIViewController {
         view.addGestureRecognizer(tap)
     }
     
+    @objc func pushSignupVC() {
+        let signupVC = SignupVC()
+        signupVC.title = "Sign up"
+        navigationController?.pushViewController(signupVC, animated: true)
+    }
+    
+    @objc func pushHomeVC() {
+//        navigationController?.pushViewController(HomeVC(), animated: true)
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(MainTabBarVC())
+    }
+    
     func configureLoginLogo() {
         view.addSubview(loginImageView)
                   
@@ -97,16 +108,6 @@ class LoginVC: UIViewController {
             signupButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
             signupButton.heightAnchor.constraint(equalToConstant: heightOfTextField),
         ])
-    }
-    
-    @objc func pushSignupVC() {
-        let signupVC = SignupVC()
-        signupVC.title = "Sign up"
-        navigationController?.pushViewController(signupVC, animated: true)
-    }
-    
-    @objc func pushHomeVC() {
-        navigationController?.pushViewController(HomeVC(), animated: true)
     }
     
 }

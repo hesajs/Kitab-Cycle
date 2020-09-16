@@ -13,12 +13,18 @@ class MainTabBarVC: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewControllers = [createHomeNC()]
+        viewControllers = [createHomeNC(), createAddProductNC()]
     }
     
     func createHomeNC() -> UINavigationController {
         let homeVC = HomeVC()
         homeVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "house"), tag: 0)
         return UINavigationController(rootViewController: homeVC)
+    }
+    
+    func createAddProductNC() -> UINavigationController {
+        let addProductVC = AddProductVC()
+        addProductVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "plus.circle.fill"), tag: 1)
+        return UINavigationController(rootViewController: addProductVC)
     }
 }

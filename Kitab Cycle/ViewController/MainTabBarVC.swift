@@ -21,5 +21,4 @@ class MainTabBarVC: UITabBarController {
         homeVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "house"), tag: 0)
         return UINavigationController(rootViewController: homeVC)
     }
-
 }

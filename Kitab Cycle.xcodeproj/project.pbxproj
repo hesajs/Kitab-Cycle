@@ -17,6 +17,7 @@
 		A03E27EC250E76AE00A6CF16 /* KCPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E27EB250E76AE00A6CF16 /* KCPasswordTextField.swift */; };
 		A03E27EE250E802600A6CF16 /* KCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E27ED250E802600A6CF16 /* KCButton.swift */; };
 		A06A3B1F25126AEA00489429 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A3B1E25126AEA00489429 /* MainTabBarVC.swift */; };
+		A06A3B212512702C00489429 /* AddProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A3B202512702C00489429 /* AddProductVC.swift */; };
 		A0808A012510DF9A002520F5 /* KCLogoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0808A002510DF9A002520F5 /* KCLogoImageView.swift */; };
 		A0C4526F250F101400B2067B /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C4526E250F101400B2067B /* SignupVC.swift */; };
 		A0C45272250F122300B2067B /* KCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C45271250F122300B2067B /* KCTextField.swift */; };
@@ -35,6 +36,7 @@
 		A03E27EB250E76AE00A6CF16 /* KCPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPasswordTextField.swift; sourceTree = "<group>"; };
 		A03E27ED250E802600A6CF16 /* KCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCButton.swift; sourceTree = "<group>"; };
 		A06A3B1E25126AEA00489429 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		A06A3B202512702C00489429 /* AddProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductVC.swift; sourceTree = "<group>"; };
 		A0808A002510DF9A002520F5 /* KCLogoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCLogoImageView.swift; sourceTree = "<group>"; };
 		A0C4526E250F101400B2067B /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		A0C45271250F122300B2067B /* KCTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTextField.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				A03E27D9250E4F9900A6CF16 /* LoginVC.swift */,
 				A0C4526E250F101400B2067B /* SignupVC.swift */,
 				A02E9A15250F703E002F41FC /* HomeVC.swift */,
+				A06A3B202512702C00489429 /* AddProductVC.swift */,
 				A06A3B1E25126AEA00489429 /* MainTabBarVC.swift */,
 			);
 			path = ViewController;
@@ -190,6 +193,7 @@
 				A03E27DA250E4F9900A6CF16 /* LoginVC.swift in Sources */,
 				A03E27D6250E4F9900A6CF16 /* AppDelegate.swift in Sources */,
 				A03E27D8250E4F9900A6CF16 /* SceneDelegate.swift in Sources */,
+				A06A3B212512702C00489429 /* AddProductVC.swift in Sources */,
 				A06A3B1F25126AEA00489429 /* MainTabBarVC.swift in Sources */,
 				A03E27EE250E802600A6CF16 /* KCButton.swift in Sources */,
 				A0808A012510DF9A002520F5 /* KCLogoImageView.swift in Sources */,

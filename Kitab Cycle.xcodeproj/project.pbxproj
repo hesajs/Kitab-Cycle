@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01099FC251622B90018E705 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01099FB251622B90018E705 /* ProductCell.swift */; };
 		A02E9A16250F703E002F41FC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02E9A15250F703E002F41FC /* HomeVC.swift */; };
 		A03E27D6250E4F9900A6CF16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E27D5250E4F9900A6CF16 /* AppDelegate.swift */; };
 		A03E27D8250E4F9900A6CF16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E27D7250E4F9900A6CF16 /* SceneDelegate.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A01099FB251622B90018E705 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		A02E9A15250F703E002F41FC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A03E27D2250E4F9900A6CF16 /* Kitab Cycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitab Cycle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E27D5250E4F9900A6CF16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01099FA2516228D0018E705 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A01099FB251622B90018E705 /* ProductCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		A03E27C9250E4F9900A6CF16 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		A0C4526C250F0FB000B2067B /* Custom View */ = {
 			isa = PBXGroup;
 			children = (
+				A01099FA2516228D0018E705 /* Cells */,
 				A0C45271250F122300B2067B /* KCTextField.swift */,
 				A03E27EB250E76AE00A6CF16 /* KCPasswordTextField.swift */,
 				A03E27E9250E735D00A6CF16 /* KCEmailTextField.swift */,
@@ -189,6 +200,7 @@
 				A03E27EA250E735D00A6CF16 /* KCEmailTextField.swift in Sources */,
 				A0C4526F250F101400B2067B /* SignupVC.swift in Sources */,
 				A03E27EC250E76AE00A6CF16 /* KCPasswordTextField.swift in Sources */,
+				A01099FC251622B90018E705 /* ProductCell.swift in Sources */,
 				A0C45272250F122300B2067B /* KCTextField.swift in Sources */,
 				A03E27DA250E4F9900A6CF16 /* LoginVC.swift in Sources */,
 				A03E27D6250E4F9900A6CF16 /* AppDelegate.swift in Sources */,
